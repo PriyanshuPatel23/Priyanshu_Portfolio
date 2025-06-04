@@ -11150,7 +11150,16 @@ p {
 }
 
 .service-card .body {
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.service-card .icon {
+  display: block;
+  margin-bottom: 15px;
+  max-width: 60px; /* Optional: Control icon size */
 }
 
 .service-card .body img.icon {
